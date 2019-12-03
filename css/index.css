@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Calistoga&display=swap');
+:root{
+    font-family:'Calistoga', cursive;
+    --main-color:black;
+}
+body{
+    max-width: 980px;
+    margin: auto;
+}
+
+h1{
+    font-family:'Bebas Neue', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+header nav .menu{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    font-family:'Calistoga', cursive;
+    justify-content: space-around;
+    }
+header nav .menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:var(--main-color);
+    border:1px solid transparent;
+    padding: 5px;
+}
+header nav .menu a:hover{
+    border: 1px solid var(--main-color);
+}
+@media(min-width:600px){
+    header nav{
+        display:flex;
+        align-items: center;
+    }
+
+    header .menu{
+        flex: 1;
+    }
+    header .banner h1{
+        flex: 1;
+    }
+
+    header .logoDunlop{
+        display: block;
+        margin: 0 auto;
+        position: center;
+    }
+    header .logoShyny{
+        display: block;
+        position: center;
+        margin: 0 auto;
+        
+    }
+}
