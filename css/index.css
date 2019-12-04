@@ -84,10 +84,15 @@ footer .footerh1{
         display: block;
         background-color: grey;
     }
-    footer .social img{
-        justify-content:space-between;
-    }
     footer .social h6{
         text-align: center;
+    }
+    footer .social img{
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+       /* padding-left: 200px;*/
+
+        
     }
 }
