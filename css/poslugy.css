@@ -84,9 +84,6 @@ footer .footerh1{
         display: block;
         background-color: grey;
     }
-    footer .social img{
-        justify-content:space-between;
-    }
     footer .social h6{
         text-align: center;
     }
