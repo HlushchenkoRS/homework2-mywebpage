@@ -9,7 +9,7 @@ body{
 }
 h1{
     font-family:'Bebas Neue', cursive;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 1rem 0;
 }
@@ -36,7 +36,29 @@ footer .footer h1{
     text-align: center;
     margin: 1rem 0;
 }
-@media(max-width:320px) and (min-width:600px){
+header .logoShyny{
+    width: 100%;
+}
+main img{
+    width: 100%;
+}
+main h3{
+    text-align: center;
+}
+footer h1{
+    text-align: center;
+}
+footer h4{
+    text-align: center;
+}
+footer h6{
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+
+@media(min-width:768px){
     header nav{
         display:flex;
         align-items: center;
@@ -46,7 +68,7 @@ footer .footer h1{
     }
     header .banner h1{
         flex: 1;
-        font-size: 2rem;
+        font-size: 5rem;
     }
     header .logoDunlop{
         display: block;
@@ -89,7 +111,7 @@ footer .footer h1{
     }
     footer .social h6{
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     footer .social img{
         width: 30px;
