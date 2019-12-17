@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Послуги</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/poslugy.css">
 </head>
 <body>
@@ -22,7 +23,7 @@
     <main>
         <h1>Послуги</h1>
          <div class="rem-lehkosp-disk">
-            <h3>Ремонт легкосплавних дисків</h3>
+            <h2>Ремонт легкосплавних дисків</h2>
             <img src="img/remont-litih-diskov.jpg" alt="ремонт литих дисків">
             <p>
                  Ми пропонуєм якісний ремонт  дисків з легких сплавів від R12 до R20.
@@ -49,7 +50,7 @@
             </p>
         </div>
         <div class="rem-stal-disk">
-             <h3>Ремонт стальних дисків</h3>
+             <h2>Ремонт стальних дисків</h2>
              <img src="img/remont-stalnyh.jpg" alt="ремонт стальних дисків">
              <p>
                  Після сильного удару (яма, бордюр і т.д.) колесо потрібно уважно оглянути на наявність пошкоджень шини або диска. 
@@ -62,7 +63,7 @@
              </p>
         </div>
         <div class="balns-kolis">
-             <h3>Балансування коліс</h3>
+             <h2>Балансування коліс</h2>
              <img src="img/balanskolis.jpg" alt="балансування-коліс">
             <p>
                  Важливість балансування не оспорюється ніким. 
@@ -124,7 +125,7 @@
             </p>
         </div>
         <div class="shynomontazh">
-             <h3>Шиномонтаж</h3>
+             <h2>Шиномонтаж</h2>
              <img src="img/shynomontazh.jpg" alt="шиномонтаж">
              <h4>Шиномонтаж</h4>
              <p>
@@ -148,7 +149,7 @@
 
         </div>
         <div class="remont-shyn-kamer-vulkan">
-             <h3>Ремонт шин та ремонт камер,вулканізація</h3>
+             <h2>Ремонт шин та ремонт камер,вулканізація</h2>
              <img src="img/remont-shyn.jpg" alt="ремонт-шин">
              <p>
                  Шина – це найбільш незахищена частина автомобіля від випадків пошкодження. 
@@ -181,22 +182,26 @@
              </p>
         </div>
         <form action="#">
-            <label>Ім'я:
-                <input type="text" placeholder="Ім'я" name="name" required=""><br>
-            </label>
-            <label>Введіть ваш моб.номер:
-                <input type="tel" placeholder="Номер" name="tel" required=""><br>
-            </label>
-            <label>Виберіть вид робіт:
-                <select multiple name="select">
-                     <option value="v1">Ремонт легкосплавних дисків</option>
-                     <option value="v2">Ремонт стальних дисків</option>
-                     <option value="v3">Балансування коліс</option>
-                     <option value="v4">Шиномонтаж</option>
-                     <option value="v5">Ремонт шин та ремонт камер,вулканізація</option>
-                </select>
-            </label><br>
-            <input type="submit">    
+            <div class="form-group-name">
+                <label for="name">Ім'я:</label>
+                <input type="text" class="form-control" id="name" placeholder="Ім'я">
+            </div>
+            <div class="form-group-tel">
+                <label for="tel">Введіть ваш моб.номер:</label>
+                <input type="tel" class="form-control" id="tel" placeholder="Введіть ваш моб.номер">
+            </div>
+                <div class="form-group">
+                    <label for="select">Виберіть вид робіт:</label>
+                    <select class="form-control" id="select">
+                    <option>Ремонт легкосплавних дисків</option>
+                    <option>Ремонт стальних дисків</option>
+                    <option>Балансування коліс</option>
+                    <option>Шиномонтаж</option>
+                    <option>Ремонт шин та ремонт камер,вулканізація</option>
+                    </select>
+                </div>
+                <br>
+            <input type="submit" class="btn btn-dark">     
         </form>
     </main>
    <footer>
@@ -237,11 +242,13 @@
             0LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1575245259710!5m2!1suk!2sua" 
             width="980" height="300" frameborder="0" style="border:0;" allowfullscreen="">
         </iframe>
-        <div class="social">
-            <img src="img/soc-facebook.png" alt="фейсбук">
-            <img src="img/soc.insta.png" alt="інстаграм">
-            <img src="img/soc-googleplus.png" alt="гуглплюс">
-            <h6>© 2019 Roman Hlushchenko</h6>       
+       <div class="social">
+            <a href="#" title="Facebook"><img src="img/soc-facebook.png" alt="фейсбук" class="fblogo" ></a>
+            <a href="#" title="Instagram"><img src="img/soc.insta.png" alt="інстаграм" class="instalogo" ></a>
+            <a href="#" title="GooglePlus"><img src="img/soc-googleplus.png" alt="гуглплюс" class="gplogo" ></a>       
+        </div>
+        <div class="copy">
+            <h6>© 2019 Roman Hlushchenko</h6> 
         </div>
     </footer>
 </body>
