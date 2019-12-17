@@ -2,10 +2,13 @@
 :root{
     font-family:'Calistoga', cursive;
     --main-color:black;
+    scroll-behavior: smooth;
 }
 body{
     max-width: 980px;
     margin: auto;
+    font-family:'Calistoga', cursive;
+    color:black;
 }
 
 h1{
@@ -51,8 +54,6 @@ main p{
 .form-group{
 text-align: center;
 }
-
-
 footer .footer h1{
     font-family:'Bebas Neue', cursive;
     font-size: 5rem;
@@ -112,7 +113,6 @@ main h2,h4,h5{
     display: flex;
     justify-content: center;
 }
-
 .rem-lehkosp-disk p{
     justify-content: center;
 }
