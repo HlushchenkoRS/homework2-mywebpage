@@ -39,6 +39,9 @@ header nav img{
 header .logoShyny{
     width: 100%;
 }
+header .logoDunlop{
+    width: 100%;
+}
 main img{
     width: 100%;
 }
@@ -118,8 +121,8 @@ main h3{
     font-size: 1rem;
 }
 .remont-shyn-kamer-vulkan{
-    display: grid;
-    align-items: center;
+    
+    justify-items: center;
 }
 
 
