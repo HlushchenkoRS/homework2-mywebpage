@@ -87,27 +87,27 @@ footer p {
     background-color: grey;
 }
 @media(min-width:768px){
-    header nav{
-        display:flex;
-        align-items: center;
-    }
-    header .menu{
-        flex: 1;
-    }
-    header .banner h1{
-        flex: 1;
-    }
-    header .logoDunlop{
-        display: block;
-        margin: 0 auto;
-        position: center;
-    }
-    header .logoShyny{
-        display: block;
-        position: center;
-        margin: 0 auto;
+ header nav{
+    display:flex;
+    align-items: center;
+}
+header .menu{
+    flex: 1;
+}
+header .banner h1{
+    flex: 1;
+}
+header .logoDunlop{
+    display: block;
+    margin: 0 auto;
+    position: center;
+}
+header .logoShyny{
+    display: block;
+    position: center;
+    margin: 0 auto;
         
-    }
+}
 main table{
     text-align: left;
     border-collapse: separate;
@@ -126,42 +126,42 @@ td {
     background: rgb(240, 138, 4);
     padding: 10px;
 }
-      footer .footer-contact{
-        display: flex;
-    }
-    footer .fAdres{
-        flex: 1;
-        text-align: center;
-    }
+footer .footer-contact{
+    display: flex;
+}
+footer .fAdres{
+    flex: 1;
+    text-align: center;
+}
    
-    footer .ftel{
-        flex: 1;
-        text-align: center;
-    }
-    footer .fGrafik{
-        flex: 1;
-        text-align: center;
-    }
-    footer .fEmail{
-        flex: 1;
-        text-align: center;
-    }
-    .social{
-        display: flex;
-        background-color: grey;
-        justify-content: center;
-    }
-     .social a{
-       margin-right: 20px;
-    }
-    .social img{
-        width: 30px;
-        height: 30px;
-    }
-     .copy h6{
-        text-align: center;
-        font-size: 1rem;
-        margin: auto;
-        background-color: grey;
-    }
+footer .ftel{
+    flex: 1;
+    text-align: center;
+}
+footer .fGrafik{
+    flex: 1;
+    text-align: center;
+}
+footer .fEmail{
+    flex: 1;
+    text-align: center;
+}
+.social{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+}
+.social a{
+    margin-right: 20px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.copy h6{
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    background-color: grey;
+}
 }

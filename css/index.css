@@ -84,77 +84,81 @@ footer p {
 
 
 @media(min-width:768px){
-    header nav{
-        display:flex;
-        align-items: center;
-    }
-    header .menu{
-        flex: 1;
-    }
-    header .banner h1{
-        flex: 1;
-        font-size: 5rem;
-    }
-    header .logoDunlop{
-        display: block;
-        margin: 0 auto;
-        position: center;
-        width: auto;
-    }
-    header .logoShyny{
-        display: block;
-        position: center;
-        margin: 0 auto;
-        width:100%;  
-    }
-    .grid{
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
-        grid-row-gap: 50px;
-        grid-column-gap: 200px;
+header nav{
+    display:flex;
+    align-items: center;
+}
+header .menu{
+    flex: 1;
+}
+header .banner h1{
+    flex: 1;
+    font-size: 5rem;
+}
+header .logoDunlop{
+    display: block;
+    margin: 0 auto;
+    position: center;
+    width: auto;
+}
+header .logoShyny{
+    display: block;
+    position: center;
+    margin: 0 auto;
+    width:100%;  
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 200px;
 
-    }
-    main h3{
-        font-size: 1rem;
-    }
+}
+main h3{
+    font-size: 1rem;
+}
+.remont-shyn-kamer-vulkan{
+    display: grid;
+    align-items: center;
+}
 
 
-    footer .footer-contact{
-        display: flex;
-    }
-    footer .fAdres{
-        flex: 1;
-        text-align: center;
-    }
+footer .footer-contact{
+    display: flex;
+}
+footer .fAdres{
+    flex: 1;
+    text-align: center;
+}
    
-    footer .ftel{
-        flex: 1;
-        text-align: center;
-    }
-    footer .fGrafik{
-        flex: 1;
-        text-align: center;
-    }
-    footer .fEmail{
-        flex: 1;
-        text-align: center;
-    }
-    .social{
-        display: flex;
-        background-color: grey;
-        justify-content: center;
-    }
-     .social a{
-       margin-right: 20px;
-    }
-    .social img{
-        width: 30px;
-        height: 30px;
-    }
-     .copy h6{
-        text-align: center;
-        font-size: 1rem;
-        margin: auto;
-        background-color: grey;
-    }
+footer .ftel{
+    flex: 1;
+    text-align: center;
+}
+footer .fGrafik{
+    flex: 1;
+    text-align: center;
+}
+footer .fEmail{
+    flex: 1;
+    text-align: center;
+}
+.social{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+}
+.social a{
+    margin-right: 20px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.copy h6{
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    background-color: grey;
+}
 }
