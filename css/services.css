@@ -34,6 +34,9 @@ header nav .menu a{
 header nav .menu a:hover{
     border: 1px solid var(--main-color);
 }
+header .logoDunlop{
+    width: 100%;
+}
 main img{
     width: 100%;
 }
