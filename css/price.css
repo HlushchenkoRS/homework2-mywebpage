@@ -97,13 +97,11 @@ footer p {
 header .menu{
     flex: 1;
 }
-header .banner h1{
-    flex: 1;
-}
 header .logoDunlop{
     display: block;
     margin: 0 auto;
     position: center;
+    width: auto;
 }
 header .logoShyny{
     display: block;

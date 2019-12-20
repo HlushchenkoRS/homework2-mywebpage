@@ -101,6 +101,12 @@ header nav{
 header .menu{
     flex: 1;
 }
+header .logoDunlop{
+    display: block;
+    margin: 0 auto;
+    position: center;
+    width: auto;
+}
 main h1{
     font-size: 5rem;
     display: flex;
