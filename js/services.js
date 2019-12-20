@@ -21,3 +21,6 @@ let select = document.querySelector('#select');
 select.onchange = function(){
     console.log(select.value);
 }
+
+const timeEl = document.querySelector('.loaded');
+timeEl.innerText = new Date().toLocaleTimeString();
